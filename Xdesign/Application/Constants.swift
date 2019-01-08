@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+let kBaseURLString = "http://www.recipepuppy.com"
+let kRecipeTableViewCellIDentifier = "RecipeTableViewCell"
+let kSearchRecipes = "Search Recipes"
+let kDetailView = "DetailView"
+let kIngredients = "Ingredients:\n"

@@ -17,8 +17,7 @@ enum Endpoint {
     func url() -> URL {
         switch self {
         case .recipe(let search):
-            let escapedString = search.addingPercentEncoding(withAllowedCharacters:NSCharacterSet.urlQueryAllowed)
-            let urlRecipe = kBaseURLString + "/api/?q=\(String(describing: search))"
+            let urlRecipe = kBaseURLString + "/api/?q=\(search.urlEncode())"
             guard let recipeURL = URL(string: urlRecipe)else {fatalError("Error recipeURL")}
             return recipeURL
         }

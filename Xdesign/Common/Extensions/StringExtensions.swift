@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+extension String {
+    func urlEncode() -> String {
+        guard let encode = self.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed) else { fatalError("urlEncode extension") }
+        return encode
+    }
+}
