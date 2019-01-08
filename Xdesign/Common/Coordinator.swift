@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+import SafariServices
 protocol Coordinator {
     var childCoordinators: [Coordinator] { get set }
     var navigationController: UINavigationController { get set }
     func detailRecipe(recipe: Recipe)
     func start()
+    func visitFullRecipe(from urlString: String)
 }
 
 protocol Storyboarded {
@@ -48,6 +49,12 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         vc.recipe = recipe
         navigationController.pushViewController(vc, animated: true)
+    }
+
+    func visitFullRecipe(from urlString: String) {
+        guard let url = URL(string: urlString) else {return}
+        let vc = SFSafariViewController(url: url)
+        navigationController.present(vc, animated: true, completion: nil)
     }
 
 }

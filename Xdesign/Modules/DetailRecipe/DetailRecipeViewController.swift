@@ -17,4 +17,8 @@ class DetailRecipeViewController: BaseViewController {
         super.viewDidLoad()
         containerView.setup(recipe: recipe)
     }
+    
+    @IBAction func fullRecipe(_ sender: Any) {
+        if let urlString = recipe.href { coordinator?.visitFullRecipe(from: urlString)}
+    }
 }
