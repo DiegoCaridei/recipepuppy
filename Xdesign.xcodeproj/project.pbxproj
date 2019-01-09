@@ -18,13 +18,17 @@
 		8FAE449E21E4F78A0003C961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE449C21E4F78A0003C961 /* Main.storyboard */; };
 		8FAE44A021E4F78B0003C961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE449F21E4F78B0003C961 /* Assets.xcassets */; };
 		8FAE44A321E4F78B0003C961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE44A121E4F78B0003C961 /* LaunchScreen.storyboard */; };
-		8FAE44AE21E4F78B0003C961 /* XdesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE44AD21E4F78B0003C961 /* XdesignTests.swift */; };
 		8FAE44BF21E4F8B10003C961 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE44BE21E4F8B10003C961 /* HomeViewController.swift */; };
 		8FAE44C221E4F93E0003C961 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE44C121E4F93E0003C961 /* Recipes.swift */; };
 		8FAE44C421E4F9730003C961 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE44C321E4F9730003C961 /* NetworkManager.swift */; };
 		8FAE44C621E4FB930003C961 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE44C521E4FB930003C961 /* Constants.swift */; };
 		8FAE44C821E503030003C961 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE44C721E503030003C961 /* RecipeTableViewCell.swift */; };
 		B5026195C8A9802E4B87D106 /* Pods_XdesignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DE2803CA6EEE8FEED39307 /* Pods_XdesignTests.framework */; };
+		D1214D9421E5F3DB00AEB17D /* HomeViewControllerTesst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1214D9321E5F3DB00AEB17D /* HomeViewControllerTesst.swift */; };
+		D1214D9621E5F71C00AEB17D /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1214D9521E5F71C00AEB17D /* Mock.swift */; };
+		D1214D9E21E5FE3700AEB17D /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = D1214D9D21E5FE3700AEB17D /* feed.json */; };
+		D1214DA121E60AC300AEB17D /* DetailRecipeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1214DA021E60AC300AEB17D /* DetailRecipeViewControllerTest.swift */; };
+		D1214DA321E60C6F00AEB17D /* DetailViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1214DA221E60C6F00AEB17D /* DetailViewTest.swift */; };
 		F179FC936DE19D83584ECA95 /* Pods_Xdesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45384CB83EACCB530ACC2A2F /* Pods_Xdesign.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,13 +60,17 @@
 		8FAE44A221E4F78B0003C961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FAE44A421E4F78B0003C961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FAE44A921E4F78B0003C961 /* XdesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XdesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FAE44AD21E4F78B0003C961 /* XdesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XdesignTests.swift; sourceTree = "<group>"; };
 		8FAE44AF21E4F78B0003C961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FAE44BE21E4F8B10003C961 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8FAE44C121E4F93E0003C961 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 		8FAE44C321E4F9730003C961 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8FAE44C521E4FB930003C961 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8FAE44C721E503030003C961 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		D1214D9321E5F3DB00AEB17D /* HomeViewControllerTesst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTesst.swift; sourceTree = "<group>"; };
+		D1214D9521E5F71C00AEB17D /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		D1214D9D21E5FE3700AEB17D /* feed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
+		D1214DA021E60AC300AEB17D /* DetailRecipeViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeViewControllerTest.swift; sourceTree = "<group>"; };
+		D1214DA221E60C6F00AEB17D /* DetailViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewTest.swift; sourceTree = "<group>"; };
 		D79390CB15E7F0B60FA4A6B5 /* Pods-XdesignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XdesignTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XdesignTests/Pods-XdesignTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6BC02FCE22885BCC5FD766E /* Pods-XdesignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XdesignTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XdesignTests/Pods-XdesignTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9DE2803CA6EEE8FEED39307 /* Pods_XdesignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XdesignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,7 +176,7 @@
 		8FAE44AC21E4F78B0003C961 /* XdesignTests */ = {
 			isa = PBXGroup;
 			children = (
-				8FAE44AD21E4F78B0003C961 /* XdesignTests.swift */,
+				D1214D9121E5F3B500AEB17D /* Modules */,
 				8FAE44AF21E4F78B0003C961 /* Info.plist */,
 			);
 			path = XdesignTests;
@@ -217,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				8FAE449F21E4F78B0003C961 /* Assets.xcassets */,
+				D1214D9D21E5FE3700AEB17D /* feed.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -236,6 +245,33 @@
 				8FAE44C121E4F93E0003C961 /* Recipes.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D1214D9121E5F3B500AEB17D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D1214D9F21E60A9700AEB17D /* DetailRecipe */,
+				D1214D9221E5F3BF00AEB17D /* Home */,
+				D1214D9521E5F71C00AEB17D /* Mock.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D1214D9221E5F3BF00AEB17D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D1214D9321E5F3DB00AEB17D /* HomeViewControllerTesst.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D1214D9F21E60A9700AEB17D /* DetailRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				D1214DA021E60AC300AEB17D /* DetailRecipeViewControllerTest.swift */,
+				D1214DA221E60C6F00AEB17D /* DetailViewTest.swift */,
+			);
+			path = DetailRecipe;
 			sourceTree = "<group>";
 		};
 		D8118006728D55242D6E5A48 /* Pods */ = {
@@ -335,6 +371,7 @@
 			files = (
 				8FAE44A321E4F78B0003C961 /* LaunchScreen.storyboard in Resources */,
 				8F0F335521E53C6D005DE392 /* DetailView.xib in Resources */,
+				D1214D9E21E5FE3700AEB17D /* feed.json in Resources */,
 				8FAE44A021E4F78B0003C961 /* Assets.xcassets in Resources */,
 				8FAE449E21E4F78A0003C961 /* Main.storyboard in Resources */,
 			);
@@ -442,7 +479,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FAE44AE21E4F78B0003C961 /* XdesignTests.swift in Sources */,
+				D1214D9421E5F3DB00AEB17D /* HomeViewControllerTesst.swift in Sources */,
+				D1214DA321E60C6F00AEB17D /* DetailViewTest.swift in Sources */,
+				D1214D9621E5F71C00AEB17D /* Mock.swift in Sources */,
+				D1214DA121E60AC300AEB17D /* DetailRecipeViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

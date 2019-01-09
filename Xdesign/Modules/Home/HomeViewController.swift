@@ -15,6 +15,7 @@ class HomeViewController: BaseViewController {
     private let searchController = UISearchController(searchResultsController: nil)
     private var dataProvider: DataProviderProtocol!
     weak var coordinator: MainCoordinator?
+    
     convenience init(dataProvider: DataProviderProtocol) {
         self.init()
         self.dataProvider = dataProvider
@@ -25,9 +26,8 @@ class HomeViewController: BaseViewController {
         setup()
     }
     
-    fileprivate func setup() {
-        
-        if self.dataProvider == nil {dataProvider = DataProvider()}
+     func setup(dataProvider: DataProviderProtocol = DataProvider()) {
+        self.dataProvider = dataProvider
         self.definesPresentationContext = true
         searchController.searchResultsUpdater = self
         searchController.searchBar.placeholder = kSearchRecipes
@@ -35,7 +35,7 @@ class HomeViewController: BaseViewController {
         navigationItem.hidesSearchBarWhenScrolling = false
     }
     
-    fileprivate func reloadData(rec: [Recipe]) {
+     func reloadData(rec: [Recipe]) {
         
         DispatchQueue.main.async { [weak self] in
             guard let self = self else {return}
